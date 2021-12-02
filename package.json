@@ -1,9 +1,9 @@
 {
   "name": "@wesbos/markdown-to-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts Markdown to HTML with Wes Bos' Cobalt 2 theme. To be used on the server",
   "type": "module",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
