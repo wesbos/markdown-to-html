@@ -19,5 +19,5 @@ const processor = unified()
 
 export async function convert(markdown) {
   const file = await processor.process(markdown)
-  console.log(file.value)
+  return file.value;
 }
