@@ -5,10 +5,12 @@ import rehypeRaw from 'rehype-raw';
 import remarkToRehype from 'remark-rehype';
 import remarkGfm from 'remark-gfm';
 import rehypeStringify from 'rehype-stringify';
+import remarkCodeTitles from 'remark-code-titles';
 
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
+  .use(remarkCodeTitles)
   .use(remarkVscode.remarkPlugin, {
     theme: 'Cobalt2',
     extensions: [`theme-cobalt2`],
