@@ -4,6 +4,12 @@
   "description": "Converts Markdown to HTML with Wes Bos' Cobalt 2 theme. To be used on the server",
   "type": "module",
   "main": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
