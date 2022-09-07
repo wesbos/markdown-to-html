@@ -2,7 +2,6 @@
   "name": "@wesbos/markdown-to-html",
   "version": "1.1.0",
   "description": "Converts Markdown to HTML with Wes Bos' Cobalt 2 theme. To be used on the server",
-  "type": "module",
   "main": "index.mjs",
   "exports": {
     ".": {
