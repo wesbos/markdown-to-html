@@ -15,14 +15,14 @@
   "author": "Wes Bos",
   "license": "ISC",
   "dependencies": {
-    "gatsby-remark-vscode": "^3.3.0",
-    "rehype-raw": "^6.1.0",
-    "rehype-stringify": "^9.0.2",
+    "gatsby-remark-vscode": "^3.3.1",
+    "rehype-raw": "^6.1.1",
+    "rehype-stringify": "^9.0.3",
     "remark-code-titles": "^0.1.2",
     "remark-gfm": "^3.0.1",
     "remark-parse": "^10.0.1",
-    "remark-rehype": "^10.0.1",
+    "remark-rehype": "^10.1.0",
     "theme-cobalt2": "^2.1.6",
-    "unified": "^10.1.1"
+    "unified": "^10.1.2"
   }
 }
